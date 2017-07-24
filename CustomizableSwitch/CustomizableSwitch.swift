@@ -1,15 +1,15 @@
 //
-//  SwiftySwitch.swift
-//  SwiftySwitch
+//  CustomizableSwitch.swift
+//  CustomizableSwitch
 //
-//  Created by Seth Rininger on 1/5/17.
-//  Copyright © 2017 Seth Rininger. All rights reserved.
+//  Created by Ruslan Timchenko on 23/7/17.
+//  Copyright © 2017 Ruslan Timchenko. All rights reserved.
 //
 
 import UIKit
 
 @IBDesignable
-public class SwiftySwitch: UIView {
+public class CustomizableSwitch: UIView {
 
     private var ball: SwitchBall!
     private var textView: TextView!
@@ -357,5 +357,5 @@ fileprivate class TextView: UIView {
 }
 
 protocol SwiftySwitchDelegate {
-    func valueChanged(sender: SwiftySwitch)
+    func valueChanged(sender: CustomizableSwitch)
 }

@@ -41,6 +41,4 @@ s.framework = "Foundation"
 # 8
 s.source_files = "CustomizableSwitch/**/*.{swift}"
 
-# 9
-s.resources = "CustomizableSwitch/**/*.{png,jpeg,jpg,storyboard,xib}"
 end

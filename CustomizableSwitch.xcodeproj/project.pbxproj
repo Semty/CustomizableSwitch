@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D5EF10D31F267C0B006A7EF5 /* SwiftySwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EF10D21F267C0B006A7EF5 /* SwiftySwitch.swift */; };
+		D5EF10D31F267C0B006A7EF5 /* CustomizableSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EF10D21F267C0B006A7EF5 /* CustomizableSwitch.swift */; };
 		D5F386801F2675AE00665965 /* CustomizableSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = D5F3867E1F2675AE00665965 /* CustomizableSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D5EF10D21F267C0B006A7EF5 /* SwiftySwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftySwitch.swift; sourceTree = "<group>"; };
+		D5EF10D21F267C0B006A7EF5 /* CustomizableSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizableSwitch.swift; sourceTree = "<group>"; };
 		D5F3867B1F2675AE00665965 /* CustomizableSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomizableSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5F3867E1F2675AE00665965 /* CustomizableSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomizableSwitch.h; sourceTree = "<group>"; };
 		D5F3867F1F2675AE00665965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		D5F3867D1F2675AE00665965 /* CustomizableSwitch */ = {
 			isa = PBXGroup;
 			children = (
-				D5EF10D21F267C0B006A7EF5 /* SwiftySwitch.swift */,
+				D5EF10D21F267C0B006A7EF5 /* CustomizableSwitch.swift */,
 				D5F3867E1F2675AE00665965 /* CustomizableSwitch.h */,
 				D5F3867F1F2675AE00665965 /* Info.plist */,
 			);
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5EF10D31F267C0B006A7EF5 /* SwiftySwitch.swift in Sources */,
+				D5EF10D31F267C0B006A7EF5 /* CustomizableSwitch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
