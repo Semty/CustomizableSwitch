@@ -356,6 +356,6 @@ fileprivate class TextView: UIView {
     }
 }
 
-protocol SwiftySwitchDelegate {
+public protocol SwiftySwitchDelegate {
     func valueChanged(sender: CustomizableSwitch)
 }
