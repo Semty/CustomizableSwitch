@@ -14,7 +14,7 @@ public class CustomizableSwitch: UIView {
     private var ball: SwitchBall!
     private var textView: TextView!
     private var textFont: UIFont = UIFont.systemFont(ofSize: 14.0)
-    internal var delegate: SwiftySwitchDelegate?
+    public var delegate: SwiftySwitchDelegate?
     private var shouldSkip: Bool = false
     private var isFirstLaunch: Bool = true
     
